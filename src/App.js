@@ -3,7 +3,6 @@ import News from './components/News'
 import React, { Component } from 'react';
 import { BrowserRouter as Router,Routes, Route } from 'react-router-dom';
 import LoadingBar from 'react-top-loading-bar';
-console.log(process.env.REACT_APP_API_KEY)
 export default class App extends Component {
   pageSize = 5;
   apiKey = process.env.REACT_APP_API_KEY;
